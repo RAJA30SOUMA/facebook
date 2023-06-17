@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin:0;
+}
+
+
+.container{
+    margin: auto;
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(98, 98, 177);
+    padding: 20px 0;
+    padding-bottom: 10px;
+}
+
+header h1{
+    margin:0;
+    color: rgb(229, 227, 240);
+    float: left;
+    font-size: 45px;
+}
+header form{
+    float: right;
+}
+
+header form label , header form input{
+    display: block;
+    color: rgb(3, 50, 112);
+    color: #fff;
+}
+form .form-group{
+    float: left;
+    margin: 0 5px;
+}
+
+form .form-group input{
+    padding: 5px;
+}
+
+form .form-group a{
+    color:rgb(209, 238, 238);
+    text-decoration: none;
+    
+}
+
+input.BTN{
+    margin-top: 18px;
+    background: rgb(103, 103, 172);
+    margin-left: 10px;
+    border: 1px solid rgb(125, 125, 241);
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+/* section code */
+section{
+    background: #f2f3f8;
+    padding-top: 20px;
+}
+
+section .group p{
+    margin-top: 0;
+}
+
+
+section .form , section .group{
+    float: left;
+    width: 50%;
+}
+
+section .group p{
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+section .group img{
+    height: 179px;
+}
+
+.form h2{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 40px;
+    
+}
+
+.form #free{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.form input{
+    display: block;
+    padding: 15px 10px;
+    border: 1px solid snow;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+    color: gray;
+}
+
+.form .w-50{
+   float:left ;
+   width: 49%;
+}
+
+.form .w-50:first-of-type{
+    margin-right: 2%;
+}
+
+.form .d-iline{
+    display: inline-block;
+    width: 10%;
+}
+
+.form input[type="submit"]
+{
+    background: #5e984d;;
+    width: 50%;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+#A1{
+    text-decoration: none;
+}
